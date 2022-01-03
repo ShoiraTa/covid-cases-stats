@@ -1,6 +1,6 @@
 ## Space Travellers
 
-In this project, we were working with the real live data from the SpaceX API. Our task was to build a web application for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.
+In this project, I was working with the real live data from the Air Pollution API. This is a React capstone project it checks a list of metrics (numeric values) that I created using React and Redux.
 
 ## Built With
 
@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 
 - go to the directory that you want to clone the repository in.
 - right click and choose Git Bash here.
-- type "git clone https://github.com/newhorizon-tech/space-travelers.git".
+- type "git clone https://github.com/ShoiraTa/air-pollution-stats.git.
 - run `npm install` to install all the dependencies
 - Run `npm start` to bundle the files in the src folder
 
