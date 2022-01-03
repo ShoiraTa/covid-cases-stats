@@ -1,6 +1,6 @@
-## Space Travellers
+## COVID cases statistics
 
-In this project, I was working with the real live data from the Air Pollution API. This is a React capstone project it checks a list of metrics (numeric values) that I created using React and Redux.
+> In this project, I was working with the real live data from the CORONAVIRUS DATA API. This is a React capstone project it checks a list of metrics (numeric values) using React and Redux.
 
 ## Built With
 
@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 
 - go to the directory that you want to clone the repository in.
 - right click and choose Git Bash here.
-- type "git clone https://github.com/ShoiraTa/air-pollution-stats.git.
+- type "git clone https://github.com/ShoiraTa/covid-cases-stats.git.
 - run `npm install` to install all the dependencies
 - Run `npm start` to bundle the files in the src folder
 
@@ -50,7 +50,8 @@ or
 
 ## Acknowledgments
 
-- Microverse
+- This project built in Microverse's second module's last week.
+- Original design idea by Nelson Sakwa on Behance.
 
 ## 📝 License
 
