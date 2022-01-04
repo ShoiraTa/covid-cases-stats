@@ -1,0 +1,92 @@
+.map-svg {
+  width: 200px;
+}
+
+.map-svg .svg-map__location, .map-svg-world .svg-map__location{
+  fill: var(--map-color)!important
+}
+
+.map-svg-world{
+  width: 150px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.349);
+  padding-bottom: 0.5rem;
+}
+
+.header-rightText h1{
+  font-size:20px ;
+}
+
+.allcountriesContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.country-conainer{
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.country-conainer:nth-child(3n), .country-conainer:nth-child(2), .country-conainer:nth-child(7){
+  background-color: var(--dark-pink);
+}
+
+
+.IoMdOpen{
+align-self: flex-end;
+font-size: 18px;
+}
+
+.HiLocationMarker{
+  font-size: 4rem;
+  color: var(--map-color)!important;
+  margin: auto;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.region:nth-child(2n){
+background-color: var(--dark-pink);
+}
+.region-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem 1rem;
+  align-items: center;
+}
+
+.cases{
+  padding-right: 1rem;
+}
+
+.region-rigt{
+  display: flex;
+  align-items: center;
+}
+
+.regions-open-svg{
+  margin-top: 3px;
+}
+
+h1{
+  padding-left: 1rem;
+}
+
+.coutry-map{
+  display: inline-block;
+  vertical-align: middle;
+}
+/* 
+.rsm-svg{
+  width: 500px!important;
+} */

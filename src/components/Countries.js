@@ -1,10 +1,14 @@
 import React from 'react';
+import SingleCountry from './SingleCountry';
 
 function Countries() {
   return (
-    <div>
-      <h1>Countries</h1>
-    </div>
+    <>
+      <h1>Cases by Countries</h1>
+      <div className="allcountriesContainer">
+        <SingleCountry />
+      </div>
+    </>
   );
 }
 

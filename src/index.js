@@ -8,6 +8,7 @@ import store from './app/store';
 import Countries from './components/Countries';
 import Regions from './components/Regions';
 import Navbar from './components/Navbar';
+import './components/countries.css';
 
 ReactDOM.render(
   <React.StrictMode>
