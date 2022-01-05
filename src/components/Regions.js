@@ -62,9 +62,9 @@ function Regions() {
           {countryData !== undefined && countryData[country].regions.length !== 0 && Object.keys(countryData).indexOf(country) !== -1 && (
           <h1>Cases by Regions</h1>
           )}
-          { countryData !== undefined && countryData[country].regions.length > 0 && Object.keys(countryData).indexOf(country) !== -1 && countryData[country].regions.map((regionItem) => (
+          { countryData !== undefined && countryData[country].regions.length > 0 && Object.keys(countryData).indexOf(country) !== -1 && countryData[country].regions.map((regionItem, index) => (
             <>
-              <div key={regionItem.id} className="regions-container">
+              <div key={regionItem.id} className={`regions-container ${(index + 1) % 2}` === 0 ? 'light-bg' : 'dark-bg'}>
                 <div key={regionItem.id} className="region-container region">
                   <div>
                     {' '}

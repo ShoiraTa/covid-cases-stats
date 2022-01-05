@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Loader from 'react-loader-spinner';
-// import World from '../img/World.jpg';
+import World from '../img/World.jpg';
 import getCountries from '../redux/thunk/countries';
 import SingleCountry from './SingleCountry';
 import Navbar from './Navbar';
@@ -48,7 +48,7 @@ function Countries() {
     <>
       <Navbar page="countries" />
       <div className="header">
-        {/* <img className="img-logo" alt="logo" src={World} /> */}
+        <img className="img-logo" alt="logo" src={World} />
 
         <div className="header-rightText">
           <h1>All Countries </h1>

@@ -82,6 +82,11 @@ Object {
       <div
         class="header"
       >
+        <img
+          alt="logo"
+          class="img-logo"
+          src="World.jpg"
+        />
         <div
           class="header-rightText"
         >
@@ -250,6 +255,11 @@ Object {
     <div
       class="header"
     >
+      <img
+        alt="logo"
+        class="img-logo"
+        src="World.jpg"
+      />
       <div
         class="header-rightText"
       >

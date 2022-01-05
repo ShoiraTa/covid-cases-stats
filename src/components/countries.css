@@ -120,3 +120,15 @@ input {
   width: 150px;
   height: 100px;
 }
+
+.img-container{
+  background-image: url('../img/World.jpg');
+}
+
+.light-bg{
+  background-color: var(--light-pink);
+}
+
+.dark-bg{
+  background-color: var(--dark-pink);
+}
