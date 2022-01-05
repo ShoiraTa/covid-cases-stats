@@ -25,6 +25,7 @@
 .allcountriesContainer{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  border-top: 1px solid rgba(255, 255, 255, 0.349);
 }
 
 .country-conainer{
@@ -82,11 +83,25 @@ h1{
   padding-left: 1rem;
 }
 
+.header-rightText h1{
+  padding-left: 0
+}
+
 .coutry-map{
   display: inline-block;
   vertical-align: middle;
 }
-/* 
-.rsm-svg{
-  width: 500px!important;
-} */
+
+input {
+  border: none;
+    padding: 5px;
+  margin-left: 1rem;
+  outline: none;
+  margin-bottom: 1rem;
+}
+
+.info p {
+  margin: 0.2rem;
+  display: flex;
+  flex-direction: column;
+}

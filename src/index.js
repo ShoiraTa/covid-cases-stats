@@ -4,7 +4,7 @@ import './index.css';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import App from './App';
-import store from './app/store';
+import store from './redux/store';
 import Countries from './components/Countries';
 import Regions from './components/Regions';
 import Navbar from './components/Navbar';

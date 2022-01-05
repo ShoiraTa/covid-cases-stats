@@ -2,16 +2,17 @@ import React from 'react';
 import { IoIosArrowBack } from 'react-icons/io';
 import { FiSettings } from 'react-icons/fi';
 import { FaMicrophone } from 'react-icons/fa';
-import { SVGMap } from 'react-svg-map';
-import World from '@svg-maps/world';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
     <div>
       <nav>
-        <div className="nav-left">
-          <IoIosArrowBack className="icon-white" />
-        </div>
+        <Link to="/">
+          <div className="nav-left">
+            <IoIosArrowBack className="icon-white" />
+          </div>
+        </Link>
         <div className="nav-middle">
           <div className="nav-link-center">Countries</div>
         </div>
@@ -20,17 +21,7 @@ function Navbar() {
           <FiSettings className="icon-white" />
         </div>
       </nav>
-      <div className="header">
-        <SVGMap
-          map={World}
-          className="map-svg-world"
-          locationTabIndex="1"
-        />
 
-        <div className="header-rightText">
-          <h1>All Countries</h1>
-        </div>
-      </div>
     </div>
   );
 }
