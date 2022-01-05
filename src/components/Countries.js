@@ -2,9 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { SVGMap } from 'react-svg-map';
 import World from '@svg-maps/world';
+import Loader from 'react-loader-spinner';
 import getCountries from '../redux/thunk/countries';
 import SingleCountry from './SingleCountry';
-// import CurrentDate from '../api/date';
+import Navbar from './Navbar';
 
 function Countries() {
   const state = useSelector((state) => state.countries);
@@ -46,6 +47,7 @@ function Countries() {
 
   return (
     <>
+      <Navbar page="countries" />
       <div className="header">
         <SVGMap
           map={World}
@@ -63,10 +65,24 @@ function Countries() {
         </div>
 
       </div>
-      <h1>Cases by Countries</h1>
-      <input type="text" onChange={handleSearch} placeholder="Search" />
-      <div className="allcountriesContainer">
-        {
+
+      {state.total === undefined && (
+      <div className="loader">
+        <Loader
+          type="Puff"
+          color="#FFF"
+          height={70}
+          width={70}
+          timeout={5000}
+        />
+      </div>
+      )}
+      {state.total !== undefined && (
+      <>
+        <h1>Cases by Countries</h1>
+        <input type="text" onChange={handleSearch} placeholder="Search" />
+        <div className="allcountriesContainer">
+          {
         Object.keys(countriesToShow).map((country, index) => {
           if ((index + 1) % 2 === 0) {
             if (backgroudColorForCountry === '#EA618F') {
@@ -86,7 +102,9 @@ function Countries() {
           );
         })
       }
-      </div>
+        </div>
+      </>
+      )}
     </>
   );
 }

@@ -7,7 +7,6 @@ import App from './App';
 import store from './redux/store';
 import Countries from './components/Countries';
 import Regions from './components/Regions';
-import Navbar from './components/Navbar';
 import './components/countries.css';
 
 ReactDOM.render(
@@ -15,7 +14,6 @@ ReactDOM.render(
     <Provider store={store}>
       <Router>
         <App />
-        <Navbar />
         <Routes>
           <Route path="/" element={<Countries />} />
           <Route path="/:country" element={<Regions />} />
