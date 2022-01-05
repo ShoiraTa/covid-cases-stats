@@ -1,6 +1,6 @@
-## Space Travellers
+## Covid Stats web-app
 
-In this project, I was working with the real live data from the Air Pollution API. This is a React capstone project it checks a list of metrics (numeric values) that I created using React and Redux.
+In this project, I was working with the real live data from the CORONAVIRUS DATA API. This is a React capstone project it checks a list of metrics (numeric values) that I created using React and Redux.
 
 ## Built With
 
@@ -21,7 +21,9 @@ In this project, I was working with the real live data from the Air Pollution AP
 
 ## Demo
 
-![](demo.gif)
+Countries  | Regions
+------------- | -------------
+![image](https://user-images.githubusercontent.com/77038610/148232117-af401d3d-e9f6-4357-b633-e80b36ec3e59.png)  | ![image](https://user-images.githubusercontent.com/77038610/148232222-9e686700-c088-4a2a-bddc-b8070d7509ed.png)
 [Netlify]()
 [Heroku]()
 
@@ -31,7 +33,7 @@ To get a local copy up and running follow these simple example steps.
 
 - go to the directory that you want to clone the repository in.
 - right click and choose Git Bash here.
-- type "git clone https://github.com/ShoiraTa/air-pollution-stats.git.
+- type "git clone https://github.com/ShoiraTa/covid-cases-stats.git.
 - run `npm install` to install all the dependencies
 - Run `npm start` to bundle the files in the src folder
 
