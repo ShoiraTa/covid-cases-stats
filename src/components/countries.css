@@ -115,3 +115,8 @@ input {
 .notAvailable{
   margin-left: 1rem;
 }
+
+.img-logo{
+  width: 150px;
+  height: 100px;
+}

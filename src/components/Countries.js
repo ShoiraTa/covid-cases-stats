@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { SVGMap } from 'react-svg-map';
-import World from '@svg-maps/world';
 import Loader from 'react-loader-spinner';
+// import World from '../img/World.jpg';
 import getCountries from '../redux/thunk/countries';
 import SingleCountry from './SingleCountry';
 import Navbar from './Navbar';
@@ -49,11 +48,7 @@ function Countries() {
     <>
       <Navbar page="countries" />
       <div className="header">
-        <SVGMap
-          map={World}
-          className="map-svg-world"
-          locationTabIndex="1"
-        />
+        {/* <img className="img-logo" alt="logo" src={World} /> */}
 
         <div className="header-rightText">
           <h1>All Countries </h1>

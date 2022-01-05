@@ -1,6 +1,6 @@
-## COVID cases statistics
+## Covid Stats web-app
 
-> In this project, I was working with the real live data from the CORONAVIRUS DATA API. This is a React capstone project it checks a list of metrics (numeric values) using React and Redux.
+In this project, I was working with the real live data from the CORONAVIRUS DATA API. This is a React capstone project it checks a list of metrics (numeric values) that I created using React and Redux.
 
 ## Built With
 
@@ -21,9 +21,11 @@
 
 ## Demo
 
-![](demo.gif)
-[Netlify]()
-[Heroku]()
+Countries  | Regions
+------------- | -------------
+![image](https://user-images.githubusercontent.com/77038610/148232117-af401d3d-e9f6-4357-b633-e80b36ec3e59.png)  | ![image](https://user-images.githubusercontent.com/77038610/148232222-9e686700-c088-4a2a-bddc-b8070d7509ed.png)
+- [Netlify]()
+- [Heroku]()
 
 ## Getting Started
 
