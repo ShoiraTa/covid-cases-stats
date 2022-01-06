@@ -89,6 +89,7 @@ function Countries() {
 
           return (
             <SingleCountry
+              data-testid="Singlecountry"
               key={country}
               country={countries[country].name}
               confirmed={countries[country].today_confirmed.toLocaleString()}

@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 function SingleCountry({ country, confirmed, backgroudColorForCountry }) {
   return (
     <>
-      <Link to={`/${country}`} style={{ backgroundColor: backgroudColorForCountry }}>
+      <Link data-testid="linkid" to={`/${country}`} style={{ backgroundColor: backgroudColorForCountry }}>
         <div className="country-conainer">
           <BsFillArrowRightSquareFill className="IoMdOpen" />
           <HiLocationMarker className="HiLocationMarker" />
