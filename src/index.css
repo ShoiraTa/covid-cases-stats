@@ -1,9 +1,9 @@
-:root{
+:root {
   --dark-pink: #d35478dc;
-  --light-pink: #EA618F;
-  --yellow: #F3D41C;
+  --light-pink: #ea618f;
+  --yellow: #f3d41c;
   --white: #fff;
-  --map-color: #B14667
+  --map-color: #b14667;
 }
 
 body {
@@ -12,11 +12,13 @@ body {
   background-color: var(--light-pink);
   color: var(--white);
 }
+
 .icon-white {
   font-size: 16px;
   padding-right: 8px;
 }
-.nav-link{
+
+.nav-link {
   font-size: 16px;
 }
 

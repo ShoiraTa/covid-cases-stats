@@ -14,7 +14,7 @@ function Regions() {
   const { country } = useParams();
   const dispatch = useDispatch();
   const { countryData } = useSelector((state) => state.reg);
-
+  // const isBackgroundRed = 'light-bg';
   useEffect(() => {
     dispatch(getRegionsThunk(country));
   }, []);
@@ -62,9 +62,10 @@ function Regions() {
           {countryData !== undefined && countryData[country].regions.length !== 0 && Object.keys(countryData).indexOf(country) !== -1 && (
           <h1>Cases by Regions</h1>
           )}
-          { countryData !== undefined && countryData[country].regions.length > 0 && Object.keys(countryData).indexOf(country) !== -1 && countryData[country].regions.map((regionItem, index) => (
+          { countryData !== undefined && countryData[country].regions.length > 0 && Object.keys(countryData).indexOf(country) !== -1 && countryData[country].regions.map((regionItem) => (
             <>
-              <div key={regionItem.id} className={`regions-container ${(index + 1) % 2}` === 0 ? 'light-bg' : 'dark-bg'}>
+              <div key={regionItem.id} className="dark-bg">
+
                 <div key={regionItem.id} className="region-container region">
                   <div>
                     {' '}
