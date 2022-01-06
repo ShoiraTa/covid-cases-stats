@@ -17,15 +17,17 @@ In this project, I was working with the real live data from the CORONAVIRUS DATA
 - Visual Studio Code
 - webpack
 - npm
-- Heroku deployment
+- Netlify deployment
 
 ## Demo
 
 Countries  | Regions
 ------------- | -------------
 ![image](https://user-images.githubusercontent.com/77038610/148232117-af401d3d-e9f6-4357-b633-e80b36ec3e59.png)  | ![image](https://user-images.githubusercontent.com/77038610/148232222-9e686700-c088-4a2a-bddc-b8070d7509ed.png)
-- [Netlify]()
-- [Heroku]()
+
+- [Netlify](https://wizardly-aryabhata-28f609.netlify.app/)
+
+
 
 ## Getting Started
 
