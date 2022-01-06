@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { BsFillArrowRightSquareFill } from 'react-icons/bs';
@@ -56,7 +55,8 @@ function Regions() {
               </p>
             </div>
           </div>
-          {countryData !== undefined && countryData[country].regions.length === 0 && Object.keys(countryData).indexOf(country) !== -1 && (
+          {countryData !== undefined && countryData[country].regions.length === 0 && Object.keys(countryData).indexOf(country) !== -1
+          && (
           <div className="notAvailable"><p>Regions are not Available</p></div>
           )}
           {countryData !== undefined && countryData[country].regions.length !== 0 && Object.keys(countryData).indexOf(country) !== -1 && (

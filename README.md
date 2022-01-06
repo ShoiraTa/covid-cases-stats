@@ -43,7 +43,7 @@ or
 
 - Go to the dist folder and open index.html
 
-## Authors
+## Author
 
 👤 **Shoira**
 
